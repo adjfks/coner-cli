@@ -1,6 +1,6 @@
-import { Command } from 'commander'
+const Command = require('commander').Command
 
-import commandList from './lib/commandList.js'
+const commandList = require('./lib/commandList.js')
 
 
 const program = new Command()

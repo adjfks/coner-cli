@@ -7,7 +7,6 @@
   "files": [
     "bin.js"
   ],
-  "type": "module",
   "scripts": {
     "bin": "bin.js"
   },
