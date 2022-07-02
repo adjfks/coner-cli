@@ -1,8 +1,14 @@
 import { Command } from 'commander'
-const program = new Command();
 
-program.command('create [template]').action((template) => {
-  console.log(template);
+import commandList from './lib/commandList.js'
+
+
+const program = new Command()
+
+commandList.forEach(cmd => {
+  program.command(cmd.name).argument(cmd.argument).action(cmd.actions)
 })
 
-program.parse(process.argv);
+program.command('create').argument('<name>').alias('c').action()
+
+program.parse(process.argv)
