@@ -12,10 +12,12 @@ pnpm install -g corner-cli
 ```
 使用corner-cli初始化前端项目
 ```
-corner-cli --template
+corner-cli create <项目名称>
 ```
-
-
+或
+```
+corner-cli c <项目名称>
+```
 ## License
 
 [MIT](LICENSE)

@@ -1,4 +1,5 @@
-const create = require('create')
+
+const create = require('./create.js')
 
 module.exports = [
   {
