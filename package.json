@@ -1,7 +1,7 @@
 {
-  "name": "xxx",
+  "name": "corner-cli",
   "version": "0.0.1",
-  "description": "",
+  "description": "个人前端工程化脚手架",
   "main": "bin.js",
   "bin": "bin.js",
   "files": [
@@ -17,6 +17,6 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/adjfks/xxx.git"
+    "url": "https://github.com/adjfks/corner-cli.git"
   }
 }
