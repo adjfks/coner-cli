@@ -6,7 +6,7 @@ const commandList = [
     name: 'create',
     argument: '<name>',
     alias: 'c',
-    actions: () => require(resolve(__dirname, './src/create.js'))
+    actions: require(resolve(__dirname, './src/create.js'))
   }
 ]
 
