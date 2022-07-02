@@ -1,6 +1,6 @@
 {
   "name": "corner-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "个人前端工程化脚手架",
   "main": "bin.js",
   "bin": "bin.js",
