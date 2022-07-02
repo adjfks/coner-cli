@@ -10,6 +10,10 @@
 ```
 pnpm install -g corner-cli
 ```
+使用corner-cli初始化前端项目
+```
+corner-cli --template
+```
 
 
 ## License

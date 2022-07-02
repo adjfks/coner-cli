@@ -14,9 +14,11 @@
   "keywords": [],
   "author": "adjfks",
   "license": "MIT",
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/adjfks/corner-cli.git"
+  },
+  "dependencies": {
+    "commander": "^9.3.0"
   }
 }
