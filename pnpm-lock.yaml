@@ -2,12 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   commander: ^9.3.0
+  corner-cli: 1.1.5
   download-git-repo: ^3.0.2
   inquirer: ^8.2.2
   ora: ^5.4.1
 
 dependencies:
   commander: 9.3.0
+  corner-cli: 1.1.5
   download-git-repo: 3.0.2
   inquirer: 8.2.4
   ora: 5.4.1
@@ -219,6 +221,16 @@ packages:
 
   /core-util-is/1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
+    dev: false
+
+  /corner-cli/1.1.5:
+    resolution: {integrity: sha512-Bc5IcBOglCz6FFImSq+EPXdZ7+iRZY+K+6fuIDLZa2ZYHrofb5z8PGn2BU8cftyMgQe0h7t4peYvphD0XPftFQ==}
+    hasBin: true
+    dependencies:
+      commander: 9.3.0
+      download-git-repo: 3.0.2
+      inquirer: 8.2.4
+      ora: 5.4.1
     dev: false
 
   /decode-uri-component/0.2.0:
