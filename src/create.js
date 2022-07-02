@@ -1,6 +1,5 @@
-import inquirer from 'inquirer'
-import download from './download.js'
-
+const inquirer = require('inquirer')
+const download = require('./download.js')
 const prompt = [
   {
     type: 'rawlist',
@@ -10,7 +9,7 @@ const prompt = [
   }
 ]
 
-export default (name) => {
+module.exports = (name) => {
   inquirer
     .prompt(prompt)
     .then((answers) => {

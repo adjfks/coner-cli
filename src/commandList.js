@@ -1,6 +1,6 @@
-import create from "./create.js"
+const create = require('create')
 
-export default [
+module.exports = [
   {
     name: 'create',
     argument: '<name>',

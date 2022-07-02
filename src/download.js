@@ -1,7 +1,7 @@
-import ora from 'ora'
-import download from 'download-git-repo'
+const ora = require('ora')
+const download = require('download-git-repo')
 
-export default function (dirName, template) {
+module.exports = function (dirName, template) {
   const spinner = ora(`Downloadinging  ${template}`).start();
   download(`direct:git@github.com:adjfks/${template}.git`, dirName, { clone: true }, (err) => {
     spinner.stop();
