@@ -1,7 +1,15 @@
 const commander = require('commander')
 const { resolve } = require('path')
 
-const commandList = require(resolve(__dirname, './lib/commandList.js'))
+const commandList = [
+  {
+    name: 'create',
+    argument: '<name>',
+    alias: 'c',
+    actions: () => require(resolve(__dirname, './src/create.js'))
+  }
+]
+
 const program = new commander.Command()
 
 
